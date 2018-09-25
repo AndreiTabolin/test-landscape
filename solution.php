@@ -68,7 +68,7 @@ function solution(array $A) {
     }
   }
 
-  return max($result);
+  return $result ? max($result) : 0;
 }
 
 /**
